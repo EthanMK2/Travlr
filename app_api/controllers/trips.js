@@ -19,7 +19,7 @@ const tripsList = async (req, res) => {
 // GET /trips/:tripCode
 const tripsFindCode = async (req, res) => {
   model
-    .find({ code: req.params.tripCode }) // empty filter for all trips
+    .find({ code: req.params.tripCode })
     .exec((err, trip) => {
       if (!trip) {
         return res.status(404).json({ message: "trip not found" });
