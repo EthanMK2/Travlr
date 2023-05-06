@@ -1,5 +1,5 @@
 # Travlr Getaways: CS-465 Full Stack Application
- 
+
 ## Architecture
 
 I developed two different types of frontend development in this project: an Express HTML site and an Angular Single-Page Application. The Express site is the customer-facing part that requests a new HTML page when the user visits a new link on the website. This requires some loading time and a request to the server for the files of each page. The Express architecture was used for the customer-facing side due to the relative simplicity of adding new HTML pages for somewhat differing content. The Angular frontend was a simpler design where administrators can login, view, edit, add, and delete vacation trips. There are fewer pages, but the SPA architecture allows the user to switch between edit and addition pages for a clean, reactive user experience. 
@@ -20,4 +20,6 @@ With an application that needs security and database functionality, testing beco
 
 This course greatly increased my understanding of the full stack and how web architectures make a web application work cohesively with services. I gained a better understanding of the Model View Controller architecture, and why it is used. I also learned a lot about how Angular as a framework works to bring a SPA frontend to life. I primarily work with React, but the exposure to Angular helps me understand the benefits and drawbacks of the two, at least from a developer perspective. 
 
+
 If I plan on becoming a full stack developer, this course helped me establish a strong foundation on the fundamentals of security, architecture, and API development. I can now speak the language of full stack developers much more fluently than I did before. Even if I plan on becoming a front-end developer, my understanding of the full stack makes me much more competitive as a candidate. I understand why we have to translate JSON, process responses, and work with requests a certain way depending on the backend. As I progress in front-end development, I can then easily move to a full stack position with this prior experience. Thinking about the different contexts of the stack has become much easier for me.
+
